@@ -37,7 +37,7 @@
 
 <%
     if (request.getMethod().equalsIgnoreCase("POST")) {
-        String from = "mkrajesh2000@gmail.com";
+        String from = "Enter your Email";
         String to = request.getParameter("to");
         String subject = request.getParameter("subject");
         String messageBody = request.getParameter("message");
@@ -60,7 +60,7 @@
 
             Session mailSession = Session.getInstance(p, new javax.mail.Authenticator() {
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("mkrajesh2000@gmail.com", "cvsa vdyl vncl cjmp"); // Your app-specific password
+                    return new PasswordAuthentication("Enter your Email", "cvsa vdyl vncl cjmp"); // Your app-specific password
                 }
             });
 
