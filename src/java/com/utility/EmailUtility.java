@@ -16,7 +16,7 @@ public class EmailUtility {
     public static void sendEmail(String email, String subject, String messageContent) throws AddressException, MessagingException {
         String host = "smtp.gmail.com";
         String port = "587";
-        String userName = "mkrajesh2000@gmail.com"; // replace with your email
+        String userName = "Enter your Email"; // replace with your email
         String password = "fjre pkqz ojtm yzfc"; // replace with your password or app password
          
         Properties properties = new Properties();
